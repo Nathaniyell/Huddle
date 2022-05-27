@@ -548,10 +548,7 @@ footer p{
 }
 }
 @media (width:398px){
-    .top{
-        height: 100vh;                  
-    }
-    footer{
-        height: 100vh;
-    }
+.footer-div4 i{
+    color: red;
 }
+    }
