@@ -387,7 +387,7 @@ footer p{
         width: 130px;
     }
     .top{
-        height: 60vh;
+        height: 70vh;
         display: grid;
       place-items: center;
       margin-bottom: 40px;
@@ -510,7 +510,7 @@ footer p{
         box-shadow: 2px 2px 2px #eee;
     }
     footer {
-        height:55vh;   
+        height: 60vh;   
     }
     footer section{
         flex-direction: column;
