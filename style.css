@@ -394,7 +394,7 @@ footer p{
         width: 130px;
     }
     .top{
-        height: 70vh;
+        height: 125vh;
         display: grid;
       place-items: center;
       margin-bottom: 40px;
