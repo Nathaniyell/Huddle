@@ -310,7 +310,7 @@ footer p{
         top: 10px;
     }
     .top button{
-    margin: 30px 30%;  
+    margin: 20px;
     }
  
     .image{
@@ -406,7 +406,7 @@ footer p{
         justify-content: center;
         width: 100%;
         position: absolute;
-        top: 150px;
+        top: 50px;
     }
     #top-text {
         width: 90%;
@@ -416,7 +416,7 @@ footer p{
     }
     #new .mockup {
         width: 90%;
-        margin: 0 auto;
+        margin: 50px auto;
     }
     .top nav{
         display: flex;
@@ -441,11 +441,11 @@ footer p{
         line-height: 1.5;
         }
     .top button {
-        width: 80%;
+        width: 70%;
         padding: 5px;
         background: hsl(322, 100%, 66%);
-        margin-top: 20px;
-        left: unset;
+        margin: 30px;
+        position: relative;
     }
     
     .top button a {
@@ -524,7 +524,7 @@ footer p{
         box-shadow: 2px 2px 2px #eee;
     }
     footer {
-        height: 100vh; 
+        height: 100%; 
     }
     footer section{
         flex-direction: column;
