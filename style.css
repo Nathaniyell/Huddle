@@ -283,7 +283,7 @@ footer p{
 
 @media screen and (max-width: 1007px){
     .top{
-        height: 70vh;
+        height: 100%;
         display: grid;
       place-items: center;
       margin-bottom: 40px;
@@ -296,11 +296,12 @@ footer p{
     }
     #top-text {   
         position: relative;   
-        top: 0;
+        top: 40px;
         
     }
     #new .mockup {
         width: 100%;
+        margin-top: 50px;
     }
     .top nav{
         display: flex;
@@ -309,9 +310,7 @@ footer p{
         top: 10px;
     }
     .top button{
-    margin: 20px auto;
-    position: relative;
-    left: 120px;
+    margin: 30px 30%;  
     }
  
     .image{
@@ -395,7 +394,7 @@ footer p{
         width: 130px;
     }
     .top{
-        height: 100vh;
+        height: 70vh;
         display: grid;
       place-items: center;
       margin-bottom: 40px;
@@ -413,7 +412,7 @@ footer p{
         width: 90%;
         padding: 10px;
         text-align: center;
-               margin: 0 auto;
+        margin: 0 auto;
     }
     #new .mockup {
         width: 90%;
@@ -528,7 +527,7 @@ footer p{
         flex-direction: column;
         align-items: flex-start;
         width: 90%;
-        height: 100vh;
+        height: 100%;
         margin: 60px auto;
         padding: 15px;
    
