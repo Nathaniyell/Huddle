@@ -394,7 +394,7 @@ footer p{
         width: 130px;
     }
     .top{
-        height: 125vh;
+        height: 120vh;
         display: grid;
       place-items: center;
       margin-bottom: 40px;
@@ -416,7 +416,8 @@ footer p{
     }
     #new .mockup {
         width: 90%;
-        margin: 50px auto;
+        align-self: center;
+        margin-top: 40px;
     }
     .top nav{
         display: flex;
