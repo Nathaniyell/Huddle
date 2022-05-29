@@ -62,16 +62,18 @@ ul li a {
     color: #000;
     text-decoration: none;
 }
-
+#new{
+    display: flex;
+    flex-wrap: wrap;
+}
 #top-text {
-    position: absolute;
-    top: 100px;
-    width: 480px;
+    flex: 50%;
+   
+    /* top: 100px; */
     padding: 20px;
 }
 
 #top-text>h1 {
-    font-weight: 600;
     font-size: 28px;
 }
 
@@ -80,12 +82,13 @@ ul li a {
 }
 
 .top button {
-    width: 180px;
+    width: 50%;
     padding: 5px;
     background: hsl(322, 100%, 66%);
     border-radius: 25px;
     border: none;
-    margin-top: 10px;
+    margin-top: 20px;
+    height: 2em;
 }
 
 .top button a {
@@ -99,9 +102,9 @@ button:hover{
 background-color: hsl(322, 86%, 77%);
 }
 
-.top .mockup {
-    width: 650px;
-   float: right;
+#new .mockup {
+    width: 100%;
+    flex: 50%;
 }
 
 .image {
@@ -137,10 +140,11 @@ background-color: hsl(322, 86%, 77%);
 
 .box3 img {
     float: left;
+    width: 20%;
 }
 
 .box3 div {
-    width: 70%;
+    width: 50%;
     padding: 10px;
     position: absolute;
     top: 35px;
@@ -276,18 +280,27 @@ footer p{
     float: right;
     font-size: 12px;
 }
-@media screen and (min-width:1008px) {
-    .top .mockup{
-        width: 50%;
-    }
-}
+
 @media screen and (max-width: 1007px){
     .top{
-        height: 60vh;
+        height: 70vh;
         display: grid;
       place-items: center;
       margin-bottom: 40px;
 
+    }
+    #new{
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+    }
+    #top-text {   
+        position: relative;   
+        top: 0;
+        
+    }
+    #new .mockup {
+        width: 100%;
     }
     .top nav{
         display: flex;
@@ -300,13 +313,7 @@ footer p{
     position: relative;
     left: 120px;
     }
-    .top .mockup {
-       max-width: 70%;
-        height: 350px;    
-        float: none;
-        position: absolute;
-        top: 400px;
-    }
+ 
     .image{
         width: 25%;
     }
@@ -325,6 +332,9 @@ footer p{
         font-size: 15px;
         line-height: 1.7;
     }
+    .box3 img{
+        width: 25%;
+    }
     .box3 div {
         width: 60%;
         top: 0;
@@ -341,12 +351,11 @@ footer p{
         line-height: 1.7;
     }
     .box5 {
-        width: 350px;
-        height: 130px;
+        width: 70%;
+        height: 100%;
         padding: 12px ;
         top: 60px;
-        margin: 0 auto;
-        
+               
     }
     .box5 h2 {
         font-size: 14px;
@@ -364,7 +373,7 @@ footer p{
         }
         .footer-div1 {
             display: block;
-            line-height: 2.2;
+            line-height: 2.1;
             font-size: 15px;
         }
             .footer-div4 {
@@ -391,7 +400,25 @@ footer p{
         display: grid;
       place-items: center;
       margin-bottom: 40px;
+      position: relative;
                    
+    }
+    #new{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        top: 150px;
+    }
+    #top-text {
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+               margin: 0 auto;
+    }
+    #new .mockup {
+        width: 90%;
+        margin: 0 auto;
     }
     .top nav{
         display: flex;
@@ -406,14 +433,7 @@ footer p{
         margin-right: 10px;
         width: 100px;
     }
-    #top-text {
-        top: 80px;
-        width: 350px;
-        padding: 15px;
-        text-align: center;
-        display: block;
-        margin: 0 auto;
-    }
+  
     #top-text>h1 {
         font-size: 25px;
         line-height: 1.5;
@@ -426,22 +446,16 @@ footer p{
         width: 80%;
         padding: 5px;
         background: hsl(322, 100%, 66%);
-        margin-top: 30px;
+        margin-top: 20px;
         left: unset;
     }
     
     .top button a {
         font-weight: 600;
-        padding: 15px;
+        padding: 12px;
       
     }
-    .top .mockup {
-        width: 70%;
-        height: 300px;    
-        float: none;
-        position: absolute;
-        top: 400px;
-    }
+    
     .box2,
     .box3,
     .box4,
@@ -456,7 +470,7 @@ footer p{
      
     }
     .image{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     }
     .div-text {
@@ -480,7 +494,7 @@ footer p{
         padding: 10px;
         top: 0;
         right: 0;
-        margin: 200px auto;
+        margin: 190px auto;
         text-align: center;
     }
     .box3 div h2{
@@ -492,12 +506,11 @@ footer p{
         line-height: 1.7;
     }
     .box5 {
-        width: 350px;
-        height: 120px;
+        width: 90%;
+        height: 60%;
         padding: 12px ;
         top: 50px;
-        margin: 0 auto;
-        
+              
     }
     .box5 h2 {
         font-size: 14px;
@@ -510,7 +523,7 @@ footer p{
         box-shadow: 2px 2px 2px #eee;
     }
     footer {
-        height: 60vh;   
+        height: 100%; 
     }
     footer section{
         flex-direction: column;
@@ -520,18 +533,20 @@ footer p{
         padding: 15px;
    
     }
+    .footer-div1{
+        width: 100%;
+        }
     .footer-div2,
 .footer-div3 {
     margin-top: 20px;
     display: flex;
    align-items: flex-start; 
-    width: 50%;
+    width: 100%;
     text-align: center;
    
 }
 .footer-div4{
     width: 100%;
-    
     margin: 40px auto 0;
 }
 footer p{
@@ -542,13 +557,8 @@ footer p{
     bottom: 70px;
 }
 .footer-logo{
-    background-color: aqua;
     width: 60%;
     
 }
 }
-@media (width:398px){
-.footer-div4 i{
-    color: red;
-}
-    }
+
