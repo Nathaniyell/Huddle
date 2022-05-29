@@ -90,7 +90,7 @@ ul li a {
     border-radius: 25px;
     border: none;
     margin-top: 20px;
-    height: 2em;
+    height: 2rem;
 }
 
 .top button a {
@@ -418,7 +418,7 @@ footer p {
     }
 
     .top {
-        height: 70vh;
+        height: 125vh;
         display: grid;
         place-items: center;
         margin-bottom: 40px;
