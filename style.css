@@ -119,7 +119,7 @@ button:hover {
 .box4,
 .box5 {
     background: #fff;
-    margin: 0 auto;
+    margin: 15px auto 0;
     padding: 10px;
     grid-column: 1 / 4;
     width: 90%;
